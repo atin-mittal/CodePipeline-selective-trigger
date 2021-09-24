@@ -22,12 +22,16 @@ To create an app password:
    - Repositories Read 
 7. Copy the generated password and either record or paste it into the application you want to give access. The password is only displayed this one time.
 
+![](images/app-password.png)
+
 ### Creating a BitBucket webhook
 1. Go to the BitBucket repository you want to create webhook with.
 2. Go to **Repository Setting**. Click on **Webhooks**.
 3. Click on **Add Webhook**.
 4. Give Webhook a **Title**.
 5. Under **URL** enter the URL of the API Gateway. You can get this from CloudFormation Console, under outputs tab.
+
+![](images/Webhook.png)
 
 ### Deploy the Solution
 1. Deploy the [CloudFormation](cloudformation//api-lambda.yaml) in AWS Console.
